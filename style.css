@@ -1,0 +1,84 @@
+/* Variabel */
+:root {
+  --white: #ffffff;
+  --grey: #eeeeee;
+}
+
+/* reset */
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+/* css for content */
+html {
+  background-color: var(--white);
+}
+body {
+  background-color: var(--grey);
+  margin: 30px auto;
+  width: 99%;
+  height: auto;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  padding: 50px 0;
+}
+
+#title {
+  height: 158px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#title h1 {
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+#title p {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+#img-div {
+  height: 684px;
+  background-color: var(--white);
+  text-align: center;
+  margin: 0 10px;
+  width: auto;
+}
+
+#image {
+  width: auto;
+  height: auto;
+}
+
+#img-div #img-caption {
+  margin-top: 20px;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#tribute-info ul {
+  margin-bottom: 50px;
+}
+
+#tribute-info ul li,
+.tribute-quote p,
+.tribute-link h3 {
+  width: 50%;
+  margin: auto;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.tribute-quote p {
+  font-style: italic;
+  font-weight: 400;
+}
